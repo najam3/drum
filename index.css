@@ -1,0 +1,35 @@
+.stick {
+    border: 5px solid black;
+    width: 10%;
+    padding: 1em 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #000000ad;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2em;
+     width: 80%;
+     margin: 0 auto;
+     height: 100vh;
+}
+
+.playing {
+    transition: 0.05s linear all;
+    border: 5px solid yellow;
+    transform: scale(1.5, 1.5);
+}
